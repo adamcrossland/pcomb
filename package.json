@@ -1,0 +1,28 @@
+{
+  "name": "pcomb",
+  "version": "1.0.0",
+  "description": "A Parser combinator library.",
+  "main": "./dist/src/pcomb.js",
+  "types": "./dist/src/pcomb.d.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "tsunit.external": "^2.0.10"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gulp-ignore-errors": "0.0.4",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-typescript": "^3.0.2",
+    "typescript": "^2.0.6",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Crossland",
+  "license": "ISC"
+}

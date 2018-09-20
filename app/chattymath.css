@@ -1,0 +1,39 @@
+html {
+
+}
+
+body {
+
+}
+
+#main {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+form {
+    margin-top: 3em;
+}
+
+form button {
+    margin-top: 1em;
+}
+
+label {
+    margin-top: 1em;
+}
+
+#answers {
+    margin-top: 2em;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.answer {
+    margin-top: 1em;
+}
+
+span.questionpart {
+    font-style: italic;
+}

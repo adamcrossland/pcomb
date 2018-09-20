@@ -1,0 +1,15 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "sourceMap": true,
+        "watch": false,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "core-js"
+        ]
+    }
+}
