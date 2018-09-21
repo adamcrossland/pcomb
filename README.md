@@ -50,6 +50,6 @@ export type ParserAction = (matchedText: string, output: ParserOutput) => Parser
 If such a function is provided to a Parser, it will be executed on a successful match. The returned **ParserOutput** object then becomes the return value for the Parser. This mechanism allows calling code to have use-specific state that is recorded and mutated on parser matching.
 
 ### Using PComb
-There's pretty decent documentation available for PComb. Take a look at the [Getting Started](https://chiselapp.com/user/acrossland/repository/pcomb/wiki?name=Getting+Started) page and the [API Reference](https://chiselapp.com/user/acrossland/repository/pcomb/wiki?name=API+Reference).
+There's pretty decent documentation available for PComb. Take a look at the [Getting Started](https://github.com/adamcrossland/pcomb/wiki/Getting-Started) page and the [API Reference](https://github.com/adamcrossland/pcomb/wiki/PComb-API).
 
 Also, the source repo has extensive automated tests and a somewhat complex example application to look at to see how it works in practice.
